@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * display_complex_number - print number complex real + imaginary
+ * conjugate - whole of complex from c.im & c.re
  * @c: number into
- * Return: Always 0.
+ * Return: number c
  */
 complex conjugate(complex c)
 {
