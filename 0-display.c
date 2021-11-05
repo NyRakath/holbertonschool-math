@@ -17,7 +17,5 @@ void display_complex_number(complex c)
 		sign = (c.im > 0) ? '+' : '-';
 		printf("%.f %c %.fi\n", c.re, sign, vabsolute);
 	}
-
-
 }
 
