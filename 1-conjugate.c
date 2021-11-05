@@ -7,7 +7,7 @@
  */
 complex conjugate(complex c)
 {
-	c.im = (-(c.im)); /* c.im *= -1; part imaginary*/ 
-	c.re = c.re; /* part real */ 
+	c.im = (-(c.im)); /* c.im *= -1; part imaginary*/
+	c.re = c.re; /* part real */
 	return (c);
 }
