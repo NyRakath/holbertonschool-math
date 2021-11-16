@@ -15,7 +15,7 @@ void display_complex_number(complex c)
 	if (vabsolute > 0)
 	{
 		sign = (c.im > 0) ? '+' : '-';
+		(vabsolute == 1) ? printf("%.f %c i\n", c.re, sign) :
 		printf("%.f %c %.fi\n", c.re, sign, vabsolute);
 	}
 }
-
